@@ -19,7 +19,7 @@ describe 'stats calculator' do
     end
 
     it 'finds the median for an odd number of elements' do
-      expect(median([55, 96, 95, 13, 37])).to eq(37)
+      expect(median([55, 96, 95, 13, 37])).to eq(55)
     end
   end
 
